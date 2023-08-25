@@ -1,6 +1,8 @@
 import TopNav from '@/Components/TopNav'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import FooterComponent from '@/Components/FooterComponent'
+import GoBackButton from '@/Components/GoBackButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <TopNav/>
+        <GoBackButton/>
         {children}
+        <FooterComponent/>
       
       
       </body>
