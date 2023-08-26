@@ -1,10 +1,10 @@
 import './globals.css'
-import TopNav from '@/Components/TopNav'
+
 
 import { Inter } from 'next/font/google'
 import FooterComponent from '@/Components/FooterComponent'
 import GoBackButton from '@/Components/GoBackButton'
-
+import TopNav from '@/Components/TopNav'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
